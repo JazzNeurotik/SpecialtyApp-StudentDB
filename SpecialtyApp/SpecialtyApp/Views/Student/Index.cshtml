@@ -1,0 +1,16 @@
+﻿@model IEnumerable<SpecialtyApp.Models.Student>
+
+<h2>Student Search</h2>
+
+<form method="post" asp-controller="Student" asp-action="Search">
+    <div class="form-group">
+        <label for="grade">Grade:</label>
+        <select name="grade" id="grade" class="form-control">
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Satisfactorily">Satisfactorily</option>
+            <option value="Bad">Bad</option>
+        </select>
+    </div>
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>

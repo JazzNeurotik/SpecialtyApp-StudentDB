@@ -1,0 +1,19 @@
+﻿@model IEnumerable<SpecialtyApp.Models.Student>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Grade</td>
+            </tr>
+        }
+    </tbody>
+</table>

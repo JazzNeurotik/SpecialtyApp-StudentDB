@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SpecialtyApp.props" />
+</Project>
